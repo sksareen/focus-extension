@@ -1,0 +1,78 @@
+/* Options Page Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Styling for session summary */
+.session-summary {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+/* Styling for input fields */
+input[type="text"],
+textarea.comment-box {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styling for tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Specific styles for session and events tables */
+.session-table,
+.events-table {
+  margin-bottom: 20px;
+}
+
+/* Styling for timer display */
+.timer {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}

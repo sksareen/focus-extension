@@ -1,0 +1,82 @@
+/* Popup Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+#startStopButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#startStopButton:active {
+  background-color: #45a049;
+}
+
+.timer {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.session-summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+}
+
+.comment-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#saveCommentButton {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#saveCommentButton:active {
+  background-color: #1e88e5;
+}
+
+.session-table, .events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.session-table th, .session-table td, .events-table th, .events-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.session-table th, .events-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.session-table tr:nth-child(even), .events-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.session-table tr:hover, .events-table tr:hover {
+  background-color: #ddd;
+}
